@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de propinas </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container-flex">
+  <h1>Calculadora de propinas</h1>
+  <form id="formularioPropinas">
+    <div class="row">
+      <h2>Total de la cuenta</h2>
+      <input type="number" id="box">
+      <br>
+      <h2>Porcentaje de la propina</h2>
+      <input type="number" id="box1">
+      <p>
+        <button type="submit" id="button">Calcular</button>
+      </p>
+    </div>
+  </form>
+  <br>
+  <div class="resumen">
+    <h3>Resumen</h3>
+    <span><div id="cuenta">Total de la cuenta $ </div></span>
+    <br><div id="propina">Propina $</div></br>
+    <div id ="total">Total a pagar $</div>
+    <br>
+  </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>

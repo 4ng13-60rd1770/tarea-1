@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu";
+
+body
+{
+font-family: 'Ubuntu', sans-serif;
+background-color:#000000;
+}
+
+h1
+{
+text-align: center;
+color: #ffffff;
+}
+
+h2
+{
+text-align: center;
+color: #ffffff;
+}
+
+h3
+{
+text-align: center;
+color: #060606;
+}
+
+
+.row
+{
+  text-align: center;
+  color: #ffffff;
+  border-radius: 15px;
+  width: 500px;
+  margin: 0 auto;
+  background-color:#000000;
+}
+.resumen
+{
+  text-align: center;
+  color:#060606;
+  border-radius: 15px;
+  border: solid #365d81;
+  width: 500px;
+  margin: 0 auto;
+  background-color:#d9d9d9;
+}
+#box
+{
+  border-radius: 5px;
+  border: solid #0000;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.5%;
+}
+
+#box1
+{
+  border-radius: 5px;
+  border: solid #0000;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.5%;
+}
+
+#button
+{
+
+  border-radius: 15px;
+  border: solid #3E3D3D;
+  background-color: #767171;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  width:100px;
+  height:50px;
+}
+
